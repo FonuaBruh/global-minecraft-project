@@ -16,13 +16,12 @@ export default function Mods() {
                     </div>
                 </div>
                 <div className="mods-catalog">
-                    <div>12312312312313</div>
-                    <div>12312312312313</div>
-                    <div>12312312312313</div>
-                    <div>12312312312313</div>
-                    <div>12312312312313</div>
-                    <div>12312312312313</div>
-                    <div>12312312312313</div>
+                    <div className="mods-card">
+                        <img src="./industrial_craft_2.jpg" alt="123" />
+                        <h2>name</h2>
+                        <p>description</p>
+                        <button>Скачать</button>
+                    </div>
                 </div>
             </div>
         </section>
