@@ -1,7 +1,8 @@
 import './App.scss';
+import Mods from './components/pages/mods/Mods';
 import Header from './components/main/Header';
 import Footer from './components/main/Footer';
-import Mods from './components/pages/mods/Mods';
+
 
 function App() {
     return (
