@@ -6,6 +6,7 @@ $Main-font: 'Open Sans', sans-serif;
 $Secondary-font: 'Ubuntu', sans-serif;
 $White-color: #fff;
 $Black-color: #000;
+$Black-background: rgba(0, 0, 0, 0.5);
 
 header {
   height: 100vh;
@@ -26,7 +27,7 @@ header {
       font-weight: 800;
       font-size: 56px;
       color: $White-color;
-      background: rgba(0, 0, 0, 0.5);
+      background: $Black-background;
       border-radius: 25px;
       padding: 0px 15px 0px 15px;
       pointer-events: none;
@@ -37,7 +38,7 @@ header {
       font-weight: 500;
       font-size: 36px;
       color: $White-color;
-      background: rgba(0, 0, 0, 0.5);
+      background: $Black-background;
       border-radius: 25px;
       padding: 0px 15px 5px 15px;
       pointer-events: none;
@@ -110,7 +111,7 @@ footer {
   
 
   .container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $Black-background;
     width: 100%;
   }
   
