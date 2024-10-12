@@ -45,7 +45,6 @@ header {
       display: flex;
       flex-direction: row;
       padding: 50px;
-
     }
 
     li {
@@ -53,6 +52,10 @@ header {
       list-style-type: none;
     }
 
+    li :hover {
+      outline: $White-color 2px solid;
+    }
+    
     a {
       text-decoration: none;
       color: $Black-color;
@@ -62,17 +65,35 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      
     }
 
-    .material-symbols-outlined {
+    .material-icons {
       padding: 0 5px 0 0;
+      pointer-events: none;
     }
 
     .mods {
       background-image: linear-gradient(to left bottom, #ae4685, #b3407b, #b73a71, #ba3566, #bc305b);
       border-radius: 25px;
       padding: 5px 15px 5px 15px; 
+    }
+
+    .textures {
+      background-image: linear-gradient(to left bottom, #aaae46, #afa73f, #b4a038, #b89933, #bc9130);
+      border-radius: 25px;
+      padding: 5px 15px 5px 15px;
+    }
+
+    .shaders {
+      background-image: linear-gradient(to left bottom, #46aaae, #139fb6, #0092bc, #0084bf, #3073bc);
+      border-radius: 25px;
+      padding: 5px 15px 5px 15px;
+    }
+
+    .servers {
+      background-image: linear-gradient(to left bottom, #46ae6a, #41b25f, #3fb652, #40b943, #43bc30);
+      border-radius: 25px;
+      padding: 5px 15px 5px 15px;
     }
   }
 }

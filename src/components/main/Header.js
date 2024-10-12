@@ -9,16 +9,13 @@ export default function Header() {
                 <nav>
                     <ul>
                         <li>
-                            <a href='' className='mods'>
-                                <span className="material-symbols-outlined">
-                                    contract_edit
-                                </span>
-                                Моды
-                            </a>
+                            <a href='' className='mods'><span className="material-icons">sports_esports</span>Моды</a>
                         </li>
-                        <li><a href=''>Наборы текстур</a></li>
-                        <li><a href=''>Шейдеры</a></li>
-                        <li><a href=''>Сервера</a></li>
+                        <li>
+                            <a href='' className='textures'><span className="material-icons">perm_media</span>Наборы текстур</a>
+                        </li>
+                        <li><a href='' className='shaders'><span className="material-icons">emoji_objects</span>Шейдеры</a></li>
+                        <li><a href='' className='servers'><span className="material-icons">dns</span>Сервера</a></li>
                     </ul>
                 </nav>
             </div>
