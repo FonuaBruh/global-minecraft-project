@@ -16,11 +16,47 @@ export default function Mods() {
                     </div>
                 </div>
                 <div className="mods-catalog">
-                    <div className="mods-card">
-                        <img src="./industrial_craft_2.jpg" alt="123" />
-                        <h2>name</h2>
-                        <p>description</p>
-                        <button>Скачать</button>
+                    <div className="mods-card ic2">
+                        <div className="mods-image"></div>
+                        <h2>Industrial Craft 2</h2>
+                        <p>Большой и старый технический мод, который 
+                            дарит игроку множество работающих на электричестве 
+                            механизмов для самых разных сфер игровой жизни, 
+                            включая добычу руд, обработку ресурсов и управление 
+                            сельским хозяйством.
+                        </p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/industrial-craft">Ссылка на скачивание</a>
+                    </div>
+                    <div className="mods-card thaumcraft">
+                        <div className="mods-image"></div>
+                        <h2>Thaumcraft</h2>
+                        <p>Изучение этого мода очень интересное, вы будете открывать множество исследований, 
+                            изучать аспекты, создавать алтари с помощью которого вы будете делать 
+                            таинственные магические артефакты.</p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/thaumcraft">Ссылка на скачивание</a>
+                    </div>
+                    <div className="mods-card create">
+                        <div className="mods-image"></div>
+                        <h2>Create</h2>
+                        <p>Create - это модификация для Minecraft созданная simibubi, 
+                            позволяющая создавать штуковины и автоматизировать процесс 
+                            используя силу вращения.</p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/create">Ссылка на скачивание</a>
+                    </div>
+                    <div className="mods-card divine">
+                        <div className="mods-image"></div>
+                        <h2>DivineRPG</h2>
+                        <p>Divine RPG — одна из крупнейших модификаций для Minecraft. 
+                            Она массово расширяет игру, добавляя в мир большое разнообразие 
+                            мобов, измерений, инструментов, оружия, брони, блоков, предметов.</p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/official-divinerpg">Ссылка на скачивание</a>
+                    </div>
+                    <div className="mods-card draconic">
+                        <div className="mods-image"></div>
+                        <h2>Draconic Evolution</h2>
+                        <p>Draconic Evolution - это популярный индустриальный мод который сочетает 
+                            в себе магию и технологии и позволяет создать чрезвычайно мощные предметы.</p>
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/draconic-evolution">Ссылка на скачивание</a>
                     </div>
                 </div>
             </div>

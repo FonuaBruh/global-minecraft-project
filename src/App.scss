@@ -198,6 +198,11 @@ section {
 
 .mods_container {
 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
   .mods-header {
     background-image: url(./components/pages/mods/mods_header.jpg);
     background-repeat: no-repeat;
@@ -243,4 +248,83 @@ section {
       }
     }
   }
-}
+
+  .mods-catalog {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 60px;
+    
+    .mods-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $Black-background;
+      padding-bottom: 10px;
+    
+      h2 {
+        font-family: $Main-font;
+        font-size: 26px;
+        font-weight: 600;
+        color: $Black-color;
+        text-align: center;
+        pointer-events: none;
+        padding-top: 10px;
+      }
+
+      p {
+        font-family: $Secondary-font;
+        font-size: 18px;
+        font-weight: 400;
+        color: $White-color;
+        text-align: center;
+        pointer-events: none;
+        padding: 10px;
+        overflow: auto;
+      }
+
+      a {
+        font-family: $Secondary-font;
+        font-size: 18px;
+        font-weight: 400;
+        color: $Black-color;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+
+    .mods-image {
+      
+      width: 400px;
+      height: 200px;
+    }
+
+    .ic2 .mods-image {
+      background: url(./components/pages/mods/industrial_craft_2.jpg);
+      background-size: cover;
+    }
+
+    .thaumcraft .mods-image {
+      background: url(./components/pages/mods/thaumcraft.png);
+      background-size: cover;
+    }
+
+    .create .mods-image {
+      background: url(./components/pages/mods/create.jpg);
+      background-size: cover;
+    }
+
+    .divine .mods-image {
+      background: url(./components/pages/mods/divine.jpg);
+      background-size: cover;
+    }
+
+    .draconic .mods-image {
+      background: url(./components/pages/mods/draconic.jpg);
+      background-size: cover;
+    }
+  }
+}  
