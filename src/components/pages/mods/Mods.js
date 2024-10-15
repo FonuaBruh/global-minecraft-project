@@ -86,13 +86,17 @@ const Mods = () => {
     : mods.filter(mod => mod.category === filter);
 
   return (
-    <div>
-      <div className="filter-buttons">
-        <button onClick={() => handleFilterChange('Все')}>Все</button>
-        <button onClick={() => handleFilterChange('Технические')}>Технические</button>
-        <button onClick={() => handleFilterChange('Магические')}>Магические</button>
-        <button onClick={() => handleFilterChange('RPG')}>RPG</button>
-        <button onClick={() => handleFilterChange('Декор')}>Декор</button>
+    <div className='mods'>
+      <div className="mods-header">
+        <h1>Популярные моды</h1>
+        <h2>Библиотека популярных модов с фильтрами</h2>
+        <div className="filter-buttons">
+          <button onClick={() => handleFilterChange('Все')}>Все</button>
+          <button onClick={() => handleFilterChange('Технические')}>Технические</button>
+          <button onClick={() => handleFilterChange('Магические')}>Магические</button>
+          <button onClick={() => handleFilterChange('RPG')}>RPG</button>
+          <button onClick={() => handleFilterChange('Декор')}>Декор</button>
+        </div>
       </div>
       <div className="mods-grid">
         {filteredMods.map(mod => (
