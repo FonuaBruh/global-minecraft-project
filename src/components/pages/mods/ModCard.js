@@ -2,7 +2,7 @@ import React from 'react';
 
 const ModCard = ({ mod }) => {
 
-    const imagePath = `./components/pages/mods/${mod.image}`;
+    const imagePath = `./public/resourses/cardImages/${mod.image}`;
 
     return (
         <div className="mod-card">
