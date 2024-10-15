@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ModCard from "./ModCard";
-import modsData from "./mods.json";
+import modsData from "./Mods.json";
 
 
 // export default function Mods() {
@@ -64,43 +64,43 @@ import modsData from "./mods.json";
 //         //         </div>
 //         //     </div>
 //         // </section>
-        
-        
+
+
 //     );
 // }
 
 const Mods = () => {
-    const [mods, setMods] = useState([]);
-    const [filter, setFilter] = useState('Все');
-  
-    useEffect(() => {
-      setMods(modsData);
-    }, []);
-  
-    const handleFilterChange = (category) => {
-      setFilter(category);
-    };
-  
-    const filteredMods = filter === 'Все' 
-      ? mods 
-      : mods.filter(mod => mod.category === filter);
-  
-    return (
-      <div>
-        <div className="filter-buttons">
-          <button onClick={() => handleFilterChange('Все')}>Все</button>
-          <button onClick={() => handleFilterChange('Технические')}>Технические</button>
-          <button onClick={() => handleFilterChange('Магические')}>Магические</button>
-          <button onClick={() => handleFilterChange('RPG')}>RPG</button>
-          <button onClick={() => handleFilterChange('Декор')}>Декор</button>
-        </div>
-        <div className="mods-grid">
-          {filteredMods.map(mod => (
-            <ModCard key={mod.id} mod={mod} />
-          ))}
-        </div>
-      </div>
-    );
+  const [mods, setMods] = useState([]);
+  const [filter, setFilter] = useState('Все');
+
+  useEffect(() => {
+    setMods(modsData);
+  }, []);
+
+  const handleFilterChange = (category) => {
+    setFilter(category);
   };
-  
-  export default Mods;
+
+  const filteredMods = filter === 'Все'
+    ? mods
+    : mods.filter(mod => mod.category === filter);
+
+  return (
+    <div>
+      <div className="filter-buttons">
+        <button onClick={() => handleFilterChange('Все')}>Все</button>
+        <button onClick={() => handleFilterChange('Технические')}>Технические</button>
+        <button onClick={() => handleFilterChange('Магические')}>Магические</button>
+        <button onClick={() => handleFilterChange('RPG')}>RPG</button>
+        <button onClick={() => handleFilterChange('Декор')}>Декор</button>
+      </div>
+      <div className="mods-grid">
+        {filteredMods.map(mod => (
+          <ModCard key={mod.id} mod={mod} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Mods;
