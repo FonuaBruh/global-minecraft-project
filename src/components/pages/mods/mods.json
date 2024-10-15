@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Industrial Craft 2",
       "description": "Большой и старый технический мод, который дарит игроку множество работающих на электричестве механизмов для самых разных сфер игровой жизни, включая добычу руд, обработку ресурсов и управление сельским хозяйством.",
-      "image": "./components/pages/mods/industrial_craft_2.jpg",
+      "image": "industrial_craft_2.jpg",
       "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft",
       "category": "Технические"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Thaumcraft",
       "description": "Изучение этого мода очень интересное, вы будете открывать множество исследований, изучать аспекты, создавать алтари с помощью которого вы будете делать таинственные магические артефакты.",
-      "image": "./components/pages/mods/thaumcraft.png",
+      "image": "thaumcraft.png",
       "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft",
       "category": "Магические"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "DivineRPG",
       "description": "Divine RPG — одна из крупнейших модификаций для Minecraft. Она массово расширяет игру, добавляя в мир большое разнообразие мобов, измерений, инструментов, оружия, брони, блоков, предметов.",
-      "image": "./components/pages/mods/divine.jpg",
+      "image": "divine.jpg",
       "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/official-divinerpg",
       "category": "RPG"
     },
