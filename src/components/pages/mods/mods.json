@@ -38,5 +38,45 @@
         "image": "draconic.jpg",
         "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution",
         "category": "RPG"
-      }
+    },
+    {
+      "id": 6,
+      "name": "Farmer's Delight",
+      "description": "Используя простую систему приготовления и несколько знакомых ингредиентов, вы сможете приготовить самые разнообразные сытные блюда.",
+      "image": "farmer.png",
+      "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
+      "category": "Декор"
+    },
+    {
+      "id": 7,
+      "name": "Botania",
+      "description": "Botania — это технический мод, посвященный природной магии. Геймплей сосредоточен на создании волшебных цветов и устройств с использованием маны, силы земли.",
+      "image": "botania.png",
+      "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/botania",
+      "category": "Магические"
+    },
+    {
+      "id": 8,
+      "name": "Twilight Forest",
+      "description": "Twilight Forest — это мод для исследования измерений, ориентированный на приключения, который отправит вас в путешествие, где вы встретите странных существ, исследуете подземелья и многое другое.",
+      "image": "twilight.png",
+      "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
+      "category": "RPG"
+    },
+    {
+      "id": 9,
+      "name": "Supplementaries",
+      "description": "Supplementaries — это легко настраиваемый мод Forge, ориентированный на добавление ценного контента, который заполняет пробелы, которые есть в ваниле.",
+      "image": "supp.png",
+      "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+      "category": "Декор"
+    },
+    {
+      "id": 10,
+      "name": "Towns and Towers",
+      "description": "Towns & Towers — это мод, целью которого является расширение обновления 1.14, созданного Mojang, добавление новых деревень, аванпостов грабителей и даже совершенно новых кораблей.",
+      "image": "towers.png",
+      "downloadLink": "https://www.curseforge.com/minecraft/mc-mods/towns-and-towers",
+      "category": "RPG"
+    }
   ]
