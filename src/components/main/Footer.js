@@ -5,6 +5,10 @@ import Twitter from "../icons/twitter_icon.svg";
 import Vk from "../icons/vk_icon.svg";
 
 export default function Footer() {
+    const handleClick = (event) => {
+        event.preventDefault();
+    };
+
     return (
         <footer>
             <div className="container">
@@ -25,22 +29,22 @@ export default function Footer() {
                         <p>Наши социальные сети</p>
                         <ul className="social-icons">
                             <li>
-                                <a href="#">
+                                <a href="#" onClick={handleClick}>
                                     <img src={Instagram} alt="Instagram" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" onClick={handleClick}>
                                     <img src={Pinterest} alt="Pinterest" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" onClick={handleClick}>
                                     <img src={Twitter} alt="Twitter" />
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#" onClick={handleClick}>
                                     <img src={Vk} alt="Vk" />
                                 </a>
                             </li>

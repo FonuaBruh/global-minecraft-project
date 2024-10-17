@@ -8,6 +8,10 @@ $White-color: #fff;
 $Black-color: #000;
 $Black-background: rgba(0, 0, 0, 0.5);
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   height: 100vh;
   background-image: url(../public/resourses/backgrounds/header_background_image.jpg);
