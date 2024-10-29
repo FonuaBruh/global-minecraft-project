@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ModCard from "./ModCard";
-import modsData from "./Mods.json";
+import modsData from "./mods.json";
 
 
 const Mods = () => {
